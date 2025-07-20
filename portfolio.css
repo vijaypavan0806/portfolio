@@ -1,0 +1,628 @@
+#header
+{
+    width: 100vw;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+body::-webkit-scrollbar 
+{
+  display: none;
+}
+.hhl
+{
+    width: 54.5vw;
+    height: 0.02vw;
+    background-color: rgba(188, 207, 219, 0.8);;
+}
+.hhl1
+{
+    margin-left: 45.5vw;
+    animation: hhla1 3s ease 0s 1 forwards;
+}
+.hhl2
+{
+    margin-left: 37vw;
+    margin-top: 0.5vw;
+    animation: hhla2 3s ease 0s 1 forwards;
+}
+.pphl
+{
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 1.3vw;
+    width: 90%;
+}
+.pphls
+{
+    margin: auto;
+    width: 82vw;
+    height: 0.01vw;
+    background-color: rgba(255, 255, 255, 0.308);
+    opacity: 0%;
+    animation: disp 1.5s linear 7s 1 forwards;
+    margin-top: 1.5vw;
+}
+@keyframes hhla1
+{
+    0%
+    {
+        width: 0vw;
+        margin-left: 99vw;
+    }
+    100%
+    {
+        width: 54.5vw;
+        margin-left: 45.5vw;
+    }
+}
+@keyframes hhla2
+{
+    0%
+    {
+        width: 0vw;
+        margin-left: 37vw;
+    }
+    100%
+    {
+        width: 54.5vw;
+        margin-left: 37vw;
+    }
+}
+#links
+{
+    justify-content: space-around;
+    display: flex;
+    padding-left: 41vw;
+    padding-right: 4vw;
+    padding-top: 0.5vw;
+    opacity: 0%;
+    animation: disp 3s ease 0s 1 forwards;
+}
+#links a
+{
+    font-size: 1.4vw;
+    text-decoration: none;
+    padding: 0.3vw 0.5vw;
+    border-radius: 6vw;
+    color: transparent;
+    border: 0.00vw solid rgba(188, 207, 219, 0.8);
+    background: none;
+}
+#links a:hover
+{
+    color: rgba(255, 255, 255, 0.7);
+}
+#links img
+{
+    height: 1.05vw;
+    margin-right: 0.6vw;
+    margin-left: 0.6vw;
+    padding: 0w;
+    margin-top: 0.3vw;
+}
+#mypic
+{
+    height: 18vw;
+    /*border: 0.2vw solid rgba(188, 207, 219, 0.8);*/
+    border-radius : 18vw;
+    float: left;
+}
+.mypicborder
+{
+    border: 0.2vw solid rgba(188, 207, 219, 0.8);
+    border-bottom: 0.2vw solid rgba(1, 152, 245, 0.8);
+    border-radius: 20vw;
+    height: 18vw;
+    width: 18vw;
+    margin-left: 7.7vw;
+    float: left;
+    opacity: 0%;
+    margin-top: 5vw;
+    animation: disp 1.5s ease 3s 1 forwards;
+}
+#info
+{
+    margin-top: 4.8vw;
+    margin-left: 32vw;
+    color: white;
+    font-size: 1.2vw;
+    width: 60vw;
+    padding: 0vw;
+    padding-top: 0.1vw;
+}
+@keyframes disp
+{
+    0%
+    {
+        opacity: 0%;
+    }
+    100%
+    {
+        opacity: 100%;
+    }
+}
+#infoh1
+{
+    opacity: 0%;
+    animation: disp 0.5s ease 4.5s 1 forwards;
+}
+#infoh2
+{
+    opacity: 0%;
+    animation: disp 0.5s ease 5s 1 forwards;
+}
+#infod1
+{
+    opacity: 0%;
+    animation: disp 3s ease 5.5s 1 forwards;
+}
+#crsl
+{
+    width: 72vw;
+    height: 12vw;
+    border-top: 0.1vw solid rgba(188, 207, 219, 0.5);
+    border-bottom: 0.1vw solid rgba(188, 207, 219, 0.5);
+    border-radius: 2vw;
+    margin: auto;
+    margin-top: 5vw;
+    overflow: hidden;
+    opacity: 0%;
+    animation: disp 2s ease 6.5s 1 forwards;
+}
+#crsl::-webkit-scrollbar 
+{
+    display: none;
+}
+.ppanelimg
+{
+    margin: 0.5vw;
+    float: left;
+    height: 10.6vw;
+    border: 0.2vw solid rgb(188, 207, 219);
+    border-radius: 0.5vw;
+}
+.ppaneltitle
+{
+    margin: 1.5vw 1vw;
+    color: white;
+    font-size: 1.5vw;
+    float: left;
+}
+.ppanelvisit
+{
+    font-size: 0.9vw;
+    margin: 1vw 0.5vw;
+    float: right;
+    color: rgb(0, 0, 0);
+    border-radius: 2vw;
+    background-color: rgb(0, 156, 252);
+    padding: 0.1vw 0.4vw;
+    text-decoration: none;
+}
+.ppanel
+{
+    width: 95%;
+    margin: auto;
+}
+.ppaneldisc
+{
+    color: white;
+    font-size: 1.2vw;
+    margin-top: 3.5vw;
+    margin-left: 21vw;
+    padding: 0vw 0vw;
+}
+.techstack
+{
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+.disc
+{
+    margin-top: 3vw;
+}
+#crslcont
+{
+    position: relative;
+    animation: corousalv 15s linear 8s infinite forwards;
+}
+@keyframes corousalv
+{
+    0%
+    {
+        bottom: 0%;
+    }
+    100%
+    {
+        bottom: 500%;
+    }
+}
+.nava
+{
+    width: 85vw;
+    margin: auto;
+    margin-top: 2.5vw;
+    padding-top: 1.5vw;
+    display: flex;
+    justify-content: space-around;
+}
+.nava a
+{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.3vw;
+}
+.navl1
+{
+    width: 85vw;
+    margin-left: 3vw;
+}
+.navl2
+{
+    width: 85vw;
+    margin-left: 2vw;
+    margin-top: 0.4vw;
+}
+#pointer
+{
+     margin-left: 2.5vw;
+     height: 1vw;
+     padding: 0vw;
+     margin-top: 0.3vw;
+     transition: margin-left 1.5s ease 0s, transform 1.5s ease 0s;
+     position: relative;
+     top: 0.5vw;
+}
+#nav
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: top 2s ease 0s;
+    width: 90vw;
+    margin: auto;
+    opacity: 0%;
+    background-color: rgba(0, 0, 0, 0.92);
+    animation: disp 1.5s linear 7s 1 forwards;
+}
+.sub
+{
+    margin: auto;
+    width: 85vw;
+    opacity: 100%;
+    animation: disp 1.5s linear 7s 1 forwards;
+    padding-top: 3vw;
+    
+}
+.subsubbut
+{
+    background-color: rgb(16, 49, 56);
+    border-radius: 10vw;
+    padding: 0.1vw 0.4vw;
+    float: left;
+    text-align: center;
+    margin: 0.5vw;
+    margin-left: 0vw;
+}
+.nobg
+{
+    background-color: transparent;
+    margin-top: 0.5vw;
+}
+.w9
+{
+    width: 9vw;
+}
+.subh
+{
+    font-size: 1.7vw;
+    padding-top: 1vw;
+    margin-bottom: 3vw;
+}
+#hf
+{
+    position: sticky;
+    padding-top: 1vw;
+    top: 0vw;
+    margin-bottom: 0vw;
+}
+.c1
+{
+    text-decoration: none;
+    color: rgb(252, 231, 236);
+}
+.c2
+{
+    text-decoration: none;
+    color: rgb(243, 244, 227);
+}
+.c3
+{
+    text-decoration: none;
+    color: rgb(239, 253, 235);
+}
+.c4
+{
+    text-decoration: none;
+    color: rgb(228, 244, 243);
+}
+.c5
+{
+    text-decoration: none;
+    color: rgb(231, 232, 247);
+}
+.c6
+{
+    text-decoration: none;
+    color: rgb(243, 231, 247);
+}
+.c7
+{
+    text-decoration: none;
+    color: rgb(249, 232, 241);
+}
+.c8
+{
+    text-decoration: none;
+    color: rgb(251, 238, 237);
+}
+.subsubh
+{
+    font-size: 1.5vw;
+    text-decoration: none;
+    margin-left: 1vw;
+}
+.subsubp
+{
+    font-size: 1.2vw;
+    margin-left: 5vw;
+    margin-top: 0.5vw;
+}
+.subsubimg
+{
+    height: 4vw;
+    width: 4vw;
+    border-radius: 3vw;
+    float: left;
+}
+.subsubd
+{
+    opacity: 50%; 
+    float: right; 
+    margin-right: 3vw;
+    font-size: 1.2vw;
+}
+.subsub
+{
+    height: 4vw;
+    width: 100%;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+td
+{
+    padding: 0vw 0vw;
+}
+.codeanimsub
+{
+    font-size: 10vw;
+    float: left;
+    margin-left: 2vw;
+}
+.codeanim
+{
+    transform: rotate(-45deg);
+}
+.lt
+{
+    animation: codeanim1 7s linear 0s infinite forwards;
+    margin-left: 10vw;
+    opacity: 0%;
+}
+.slash
+{
+    animation: codeanim2 7s linear 0s infinite forwards;
+    opacity: 0%;
+}
+.gt
+{
+    animation: codeanim3 7s linear 0s infinite forwards;
+    opacity: 0%;
+}
+@keyframes codeanim1
+{
+    0%
+    {
+        opacity: 0%;
+    }    
+    15%
+    {
+        opacity: 30%;
+    }
+    100%
+    {
+        opacity: 30%;
+    }
+}
+@keyframes codeanim2
+{
+    0%
+    {
+        opacity: 0%;
+    }    
+    20%
+    {
+        opacity: 0%;
+    }
+    30%
+    {
+        opacity: 30%;
+    }
+    100%
+    {
+        opacity: 30%;
+    }
+}
+@keyframes codeanim3
+{
+    0%
+    {
+        opacity: 0%;
+    }    
+    35%
+    {
+        opacity: 0%;
+    }
+    50%
+    {
+        opacity: 30%;
+    }
+    100%
+    {
+        opacity: 30%;
+    }
+}
+
+
+
+
+
+
+
+#background
+{
+    position: fixed;
+    opacity: 0%;
+    animation: disp 3s linear 5s 1 forwards;
+}
+.star
+{
+    position: fixed;
+}
+.line
+{
+    border-radius: 10px;
+    background-color: rgba(237, 250, 2, 0.66);
+    box-shadow: 0px 0px 3px white;
+    position: absolute;
+}
+.l1
+{
+    top: 0%;
+    left: 44%;
+    height: 100%;
+    width: 12%;
+}
+.l2
+{
+    width: 100%;
+    height: 12%;
+    top: 44%;
+    left: 0%;
+}
+@keyframes star
+{
+    0%
+    {
+        transform: rotate(0deg);
+        height: 12px;
+        width: 12px;
+    }
+    25%
+    {
+        width: 6px;
+        height: 6px;
+    }
+    50%
+    {
+        width: 12px;
+        height: 12px;
+    }
+    75%
+    {
+        width: 6px;
+        height: 6px;
+    }
+    100%
+    {
+        transform: rotate(360deg);
+        height: 12px;
+        width: 12px;
+    }
+}
+.s1{animation: star 4s linear 0s infinite forwards, anim1 50s linear 0s infinite forwards;}
+.s2{animation: star 6s linear 0s infinite forwards, anim2 60s linear 0s infinite forwards;}
+.s3{animation: star 5s linear 0s infinite forwards, anim3 40s linear 0s infinite forwards;}
+.s4{animation: star 6s linear 0s infinite forwards, anim4 45s linear 0s infinite forwards;}
+.s5{animation: star 5s linear 0s infinite forwards, anim5 65s linear 0s infinite forwards;}
+.s6{animation: star 4s linear 0s infinite forwards, anim6 50s linear 0s infinite forwards;}
+@keyframes anim1
+{
+    0% {top: 0vw; left: 0vw;}
+    15% {top: 100vh; left: 25vw;}
+    30% {top: 0vh; left: 50vw;}
+    45% {top: 100vh; left: 75vw;}
+    60% {top: 0vh; left: 100vw;}
+    80% {top: 100vh; left: 50vw;}
+    100% {top: 0vh; left : 0vw;}
+}
+@keyframes anim2
+{
+    0% {top: 30vh; left: 45vw;}
+    13% {top: 75vh; left: 100vw;}
+    23% {top: 0vh; left: 70vw;}
+    33% {top: 100vh; left: 55vw;}
+    43% {top: 0vh; left: 40vw;}
+    53% {top: 55vh; left: 0vw;}
+    63% {top: 100vh; left: 40vw;}
+    73% {top: 0vh; left: 25vw;}
+    83% {top: 85vh; left: 0vw;}
+    93% {top: 0vh; left: 9vw;}
+    100% {top: 30vh; left: 45vw;}
+}
+@keyframes anim3 
+{
+    0%   { top: 70vh; left: 0vw; }
+    15%  { top: 100vh; left: 30vw; }
+    40%  { top: 0vh; left: 70vw; }
+    60%  { top: 60vh; left: 100vw; }
+    80%  { top: 100vh; left: 50vw; }
+    100% { top: 70vh; left: 0vw; }
+}
+@keyframes anim4
+{
+    0%   { top: 50vh; left: 100vw; }
+    15%  { top: 0vh; left: 70vw; }
+    45%  { top: 90vh; left: 0vw; }
+    50%  { top: 100vh; left: 5vw; }
+    75%  { top: 00vh; left: 40vw; }
+    100% { top: 50vh; left: 100vw; }
+}
+@keyframes anim5
+{
+    0%   { top: 65vh; left: 80vw; }
+    10%  { top: 30vh; left: 100vw; }
+    25%  { top: 0vh; left: 65vw; }
+    45%  { top: 100vh; left: 40vw; }
+    60%  { top: 70vh; left: 0vw; }
+    80%  { top: 0vh; left: 50vw; }
+    90%  { top: 100vh; left: 60vw; }
+    100% { top: 65vh; left: 80vw; }
+}
+@keyframes anim6
+{
+    0%   { top: 90vh; left: 12vw; }
+    20%  { top: 0vh; left: 75vw; }
+    25%  { top: 10vh; left: 100vw; }
+    50%  { top: 100vh; left: 40vw; }
+    75%  { top: 0vh; left: 10vw; }
+    95%  { top: 100vh; left: 5vw; }
+    100% { top: 90vh; left: 12vw; }
+}
+
+
+
