@@ -293,9 +293,10 @@ body::-webkit-scrollbar
 {
     margin: auto;
     width: 85vw;
-    opacity: 100%;
+    opacity: 0%;
     animation: disp 1.5s linear 7s 1 forwards;
     padding-top: 3vw;
+    animation: disp 1.5s linear 8.5s 1 forwards;
     
 }
 .subsubbut
@@ -382,6 +383,11 @@ body::-webkit-scrollbar
     margin-left: 5vw;
     margin-top: 0.5vw;
 }
+.subsubpmt
+{
+    text-align: justify; 
+    margin-top: 1.5vw;
+}
 .subsubimg
 {
     height: 4vw;
@@ -407,15 +413,32 @@ td
 {
     padding: 0vw 0vw;
 }
-.codeanimsub
+.codeanim img
 {
-    font-size: 10vw;
-    float: left;
-    margin-left: 2vw;
+    width: 2vw;
+    animation: rotate 15s linear 0s infinite reverse;
 }
 .codeanim
 {
-    transform: rotate(-45deg);
+    margin-left: 6vw;
+    animation: rotate 15s linear 0s infinite forwards;
+    border-radius: 30vw;
+}
+.codeanim table td
+{
+    padding: 1vw;
+}
+
+@keyframes rotate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }    
+    100%
+    {
+        transform: rotate(360deg);
+    }    
 }
 .lt
 {
@@ -486,7 +509,16 @@ td
         opacity: 30%;
     }
 }
-
+.certimg1
+{
+    width: 10vw;
+    margin: 2vw;
+}
+.certimg2
+{
+    width: 16vw;
+    margin: 0.5vw 2vw;
+}
 
 
 

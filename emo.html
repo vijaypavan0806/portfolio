@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .star
+        {
+            position: fixed;
+        }
+        .line
+        {
+           border-radius: 10px;
+           background-color: rgba(237, 250, 2, 0.66);
+           box-shadow: 0px 0px 3px white;
+           position: absolute;
+        }
+        .l1
+        {
+            top: 0%;
+            left: 44%;
+            height: 100%;
+            width: 12%;
+        }
+        .l2
+        {
+            width: 100%;
+            height: 12%;
+            top: 44%;
+            left: 0%;
+        }
+        @keyframes star
+        {
+            0%
+            {
+                transform: rotate(0deg);
+                height: 12px;
+                width: 12px;
+            }
+            25%
+            {
+                width: 6px;
+                height: 6px;
+            }
+            50%
+            {
+                width: 12px;
+                height: 12px;
+            }
+            75%
+            {
+                width: 6px;
+                height: 6px;
+            }
+            100%
+            {
+                transform: rotate(360deg);
+                height: 12px;
+                width: 12px;
+            }
+        }
+        .s1{animation: star 4s linear 0s infinite forwards, anim1 30s linear 0s infinite forwards;}
+        .s2{animation: star 6s linear 0s infinite forwards, anim2 55s linear 0s infinite forwards;}
+        .s3{animation: star 5s linear 0s infinite forwards, anim3 20s linear 0s infinite forwards;}
+        .s4{animation: star 6s linear 0s infinite forwards, anim4 28s linear 0s infinite forwards;}
+        .s5{animation: star 5s linear 0s infinite forwards, anim5 33s linear 0s infinite forwards;}
+        .s6{animation: star 4s linear 0s infinite forwards, anim6 32s linear 0s infinite forwards;}
+        @keyframes anim1
+        {
+            0% {top: 0vw; left: 0vw;}
+            15% {top: 100vh; left: 25vw;}
+            30% {top: 0vh; left: 50vw;}
+            45% {top: 100vh; left: 75vw;}
+            60% {top: 0vh; left: 100vw;}
+            80% {top: 100vh; left: 50vw;}
+            100% {top: 0vh; left : 0vw;}
+        }
+        @keyframes anim2
+        {
+            0% {top: 30vh; left: 45vw;}
+            13% {top: 75vh; left: 100vw;}
+            23% {top: 0vh; left: 70vw;}
+            33% {top: 100vh; left: 55vw;}
+            43% {top: 0vh; left: 40vw;}
+            53% {top: 55vh; left: 0vw;}
+            63% {top: 100vh; left: 40vw;}
+            73% {top: 0vh; left: 25vw;}
+            83% {top: 85vh; left: 0vw;}
+            93% {top: 0vh; left: 9vw;}
+            100% {top: 30vh; left: 45vw;}
+        }
+        @keyframes anim3 
+        {
+            0%   { top: 70vh; left: 0vw; }
+            15%  { top: 100vh; left: 30vw; }
+            40%  { top: 0vh; left: 70vw; }
+            60%  { top: 60vh; left: 100vw; }
+            80%  { top: 100vh; left: 50vw; }
+            100% { top: 70vh; left: 0vw; }
+        }
+        @keyframes anim4
+        {
+            0%   { top: 50vh; left: 100vw; }
+            15%  { top: 0vh; left: 70vw; }
+            45%  { top: 90vh; left: 0vw; }
+            50%  { top: 100vh; left: 5vw; }
+            75%  { top: 00vh; left: 40vw; }
+            100% { top: 50vh; left: 100vw; }
+        }
+        @keyframes anim5
+        {
+            0%   { top: 65vh; left: 80vw; }
+            10%  { top: 30vh; left: 100vw; }
+            25%  { top: 0vh; left: 65vw; }
+            45%  { top: 100vh; left: 40vw; }
+            60%  { top: 70vh; left: 0vw; }
+            80%  { top: 0vh; left: 50vw; }
+            90%  { top: 100vh; left: 60vw; }
+            100% { top: 65vh; left: 80vw; }
+        }
+        @keyframes anim6
+        {
+            0%   { top: 90vh; left: 12vw; }
+            20%  { top: 0vh; left: 75vw; }
+            25%  { top: 10vh; left: 100vw; }
+            50%  { top: 100vh; left: 40vw; }
+            75%  { top: 0vh; left: 10vw; }
+            95%  { top: 100vh; left: 5vw; }
+            100% { top: 90vh; left: 12vw; }
+        }
+    </style>
+</head>
+    <body>
+    <div id="background">
+        <div class="star s1">
+            <div class="line l1"></div>
+            <div class="line l2"></div>
+        </div>
+        <div class="star s2">
+            <div class="line l1"></div>
+            <div class="line l2"></div>
+        </div>
+        <div class="star s3">
+            <div class="line l1"></div>
+            <div class="line l2"></div>
+        </div>
+        <div class="star s4">
+            <div class="line l1"></div>
+            <div class="line l2"></div>
+        </div>
+        <div class="star s5">
+            <div class="line l1"></div>
+            <div class="line l2"></div>
+        </div>
+        <div class="star s6">
+            <div class="line l1"></div>
+            <div class="line l2"></div>
+        </div>
+    </div>
+</body>
+</html>
