@@ -159,6 +159,7 @@ body::-webkit-scrollbar
 {
     opacity: 0%;
     animation: disp 3s ease 5.5s 1 forwards;
+    font-size: 1.2vw;
 }
 #crsl
 {
