@@ -553,7 +553,7 @@ td
 .projdisc
 {
     margin: 1vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
     width: 90%;
     opacity: 55%;
 }
@@ -565,7 +565,7 @@ td
 .projstack p
 {
     opacity: 80%;
-    font-size: 1.2vw;
+    font-size: 1vw;
     border: 0.1vw solid rgba(188, 207, 219, 0.5);
     border-radius: 1vw;
     padding: 0vw 0.5vw;
