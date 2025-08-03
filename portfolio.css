@@ -228,7 +228,7 @@ body::-webkit-scrollbar
 #crslcont
 {
     position: relative;
-    animation: corousalv 15s linear 8s infinite forwards;
+    animation: corousalv 6s linear 8s infinite forwards;
 }
 @keyframes corousalv
 {
@@ -238,7 +238,7 @@ body::-webkit-scrollbar
     }
     100%
     {
-        bottom: 500%;
+        bottom: 125%;
     }
 }
 .nava
@@ -294,11 +294,11 @@ body::-webkit-scrollbar
     margin: auto;
     width: 85vw;
     opacity: 0%;
-    animation: disp 1.5s linear 7s 1 forwards;
     padding-top: 3vw;
     animation: disp 1.5s linear 8.5s 1 forwards;
     
 }
+
 .subsubbut
 {
     background-color: rgb(16, 49, 56);
@@ -519,8 +519,62 @@ td
     width: 16vw;
     margin: 0.5vw 2vw;
 }
-
-
+.projtd
+{
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    border: 0.1vw solid rgba(128, 128, 128, 0.351);
+}
+.projimg
+{
+    width: 32vw; 
+    height: 18vw;
+    border-radius: 1vw;
+    border: 0.1vw solid grey;
+}
+.projtitle
+{
+    font-size: 1.6vw;
+    text-decoration: none;
+    margin: 0.5vw 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+.projdate
+{
+    opacity: 50%; 
+    font-size: 1.2vw; 
+    padding-top: 0.3vw;
+}
+.projtitle p
+{
+    margin: 0vw;
+}
+.projdisc
+{
+    margin: 1vw;
+    font-size: 1.2vw;
+    width: 90%;
+    opacity: 55%;
+}
+.projstack
+{
+    display: flex;
+    justify-content: space-around;
+}
+.projstack p
+{
+    opacity: 80%;
+    font-size: 1.2vw;
+    border: 0.1vw solid rgba(188, 207, 219, 0.5);
+    border-radius: 1vw;
+    padding: 0vw 0.5vw;
+}
+footer
+{
+    opacity: 0%;
+    animation: disp 1.5s linear 8.5s 1 forwards;
+}
 
 
 

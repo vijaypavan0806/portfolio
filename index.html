@@ -76,12 +76,12 @@
             </div>
             <div class="hhl pphl"></div>
             <div class="ppanel">
-                <img class="ppanelimg" src="p1.png">
-                <p class="ppaneltitle">a</p>
+                <img class="ppanelimg" src="p2.png">
+                <p class="ppaneltitle">goSafe</p>
                 <a class="ppanelvisit" href="#">visit</a><br>
-                <div class="ppaneldisc"><p class="disc">Developed a news application offering personalized feeds based on users’ search history. Designed additional sections enabling users to explore diverse news topics seamlessly.</p><p><b class="techstack">Tech Stack : Google OAuth API, geolocation API, ML, MongoDB</b></p></div>
+                <div class="ppaneldisc"><p class="disc">Built a travel safety app for women and minors, with periodic acknowledgments to ensure safety. Integrated smart alerts and intuitive UI for seamless use.</p><p><b class="techstack">Tech Stack : Twillio, Geo Location Visualization, nodejs, MongoDB</b></p></div>
             </div>
-            <div class="hhl pphl"></div>
+            <!-- <div class="hhl pphl"></div>
             <div class="ppanel">
                 <img class="ppanelimg" src="p1.png">
                 <p class="ppaneltitle">b</p>
@@ -101,7 +101,7 @@
                 <p class="ppaneltitle">d</p>
                 <a class="ppanelvisit" href="#">visit</a><br>
                 <div class="ppaneldisc"><p class="disc">Developed a news application offering personalized feeds based on users’ search history. Designed additional sections enabling users to explore diverse news topics seamlessly.</p><p><b class="techstack">Tech Stack : Google OAuth API, geolocation API, ML, MongoDB</b></p></div>
-            </div>
+            </div> -->
         </div>
     </div>
     <div id="nav">
@@ -276,14 +276,56 @@
         </table>
     </div>
     <div id="projects" class="sub c6">
-        <p class="subh"><b>Projects</b></p>
+        <p class="subh" style="text-align: center; font-size: 2.2vw;"><b>Projects</b></p>
+        <table style="margin: auto; width: 86%;">
+            <tr>
+                <td class = "projtd">
+                    <img src="p1.png" class = "projimg">
+                    <a href="#" class="projtitle c6"><p>terraNews</p><p class="projdate">Aug 2024-25</p></a>
+                    <p class="projdisc">Developed a news application offering personalized feeds based on users’ search history. Designed additional sections enabling users to explore diverse news topics seamlessly.</p>
+                    <div class="projstack">
+                        <p>nodejs</p>
+                        <p>Geolocation API</p>
+                        <p>Machine Learning</p>
+                        <p>MongoDB</p>
+                    </div>
+                </td>
+                <td class = "projtd">
+                    <img src="p2.png" class = "projimg">
+                    <a href="#" class="projtitle c6"><p>goSafe</p><p class="projdate">Jan - Feb 2025</p></a>
+                    <p class="projdisc">Built a travel safety app for women and minors, with periodic acknowledgments to ensure safety. Integrated smart alerts and intuitive UI for seamless use.</p>
+                    <div class="projstack">
+                        <p>nodejs</p>
+                        <p>Geo Loc Visualization</p>
+                        <p>Twillio</p>
+                        <p>MongoDB</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
     <div id="strengths" class="sub c7">
         <p class="subh"><b>Strengths</b></p>
+        <ul>
+            <li class="subsubp">Demonstrates creative thinking with a strong, solution-focused approach</li>
+            <li class="subsubp">Highly dedicated and goal-driven</li>
+            <li class="subsubp">Collaborates effectively in teams while maintaining self-driven initiative</li>
+            <li class="subsubp">Quick to adapt and learn emerging technologies</li>
+        </ul>
     </div>
     <div id="lang" class="sub c8">
         <p class="subh"><b>Languages Known</b></p>
+        <div class="projstack" style="width: 60%; margin: auto;">
+            <p>English</p>
+            <p>Telugu</p>
+            <p>Hindi</p>
+            <p>Tamil</p>
+        </div>
     </div>
+    <footer style="color: white; width: 50%; margin: auto; padding-bottom: 3vw;">
+        <p style="text-align: center; font-size: 2vw; color: white;"><b>You can Contact me via...</b></p>
+        <a style="margin: auto; width: 40%;" href="https://www.linkedin.com/in/vijay-pavan-adimulam-814048275/"><img src="contact.jpg" style="border-radius: 2vw; margin: auto; width: 100%;"></a>
+    </footer>
 </body>
 <script>
     let crslcontvar = document.getElementById("crslcont");
@@ -300,7 +342,7 @@
         pointer.style.marginLeft = `${x}vw`;
         curpointerdeg = curpointerdeg + (360*(x-curpointer)/6);
         pointer.style.transform = `rotate(${curpointerdeg}deg)`;
-        document.getElementById('lang').style.bottom = '100vw';
+        document.getElementById('projects').style.bottom = '100vw';
     }
     window.addEventListener("scroll", function () 
     {
